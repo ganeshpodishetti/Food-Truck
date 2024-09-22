@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  /* font-family: Inter, Avenir, Helvetica, Arial, sans-serif; */
+  font-family: "Jost", system-ui;
+  font-weight: 500;
+  color: black;
+  background-color: lightblue;
+}
+
+
+ body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.header{
+  display: flex;
+  color: antiquewhite;
+  text-shadow: 2px 2px 3px black;
+  justify-content: center;
+}
+
+.cards-list {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 1% 1%;
+}
